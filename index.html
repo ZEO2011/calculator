@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full w-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Calculator</title>
+		<!-- Tailwindcss Library -->
+		<link rel="stylesheet" href="dist/css/output.css" />
+	</head>
+	<body class="w-full h-full grid place-items-center">
+		<div class="calc w-80 h-fit shadow-2xl rounded-xl">
+			<div
+				id="output"
+				class="output h-20 bg-gray-100 rounded-t-xl flex justify-end items-end text-3xl pb-2 pr-4"
+			>
+				0
+			</div>
+			<div class="container bg-gray-200 w-full h-full rounded-b-xl">
+				<div class="buttons flex flex-wrap h-fit">
+					<ul class="w-full flex flex-wrap h-fit">
+						<button
+							clear
+							class="w-20 h-20 flex-grow grid place-items-center bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							AC
+						</button>
+						<button
+							del
+							class="w-20 h-20 grid place-items-center bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							DEL
+						</button>
+						<button
+							calculation
+							class="w-20 h-20 grid place-items-center bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							/
+						</button>
+					</ul>
+
+					<ul class="w-full h-[75%] flex flex-wrap rounded-b-xl">
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							7
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+							s="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							8
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							9
+						</button>
+						<button
+							calculation
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							*
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							4
+						</button>
+
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							5
+						</button>
+
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							6
+						</button>
+						<button
+							calculation
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							-
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							1
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							2
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							3
+						</button>
+
+						<button
+							calculation
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							+
+						</button>
+						<button
+							number
+							class="zero w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							0
+						</button>
+						<button
+							number
+							class="w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							.
+						</button>
+						<button
+							equal
+							class="flex-grow w-20 h-20 grid place-items-center flex-col bg-gray-200 border-2 border-gray-300 text-xl"
+						>
+							=
+						</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="dist/js/script.js"></script>
+	</body>
+</html>

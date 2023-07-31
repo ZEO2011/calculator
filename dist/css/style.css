@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  * {
+    @apply box-border m-0 p-0 capitalize;
+  }
+  html {
+    @apply font-[80%];
+  }
+  @font-face {
+    font-family: "MyFont";
+    src: url("../../src/assets/fonts/SFPRODISPLAYBOLD.OTF");
+  }
+  body {
+    font-family: "MyFont";
+  }
+}
+[equal] {
+  border-bottom-right-radius: 0.75rem;
+}
+
+.zero {
+  border-bottom-left-radius: 0.75rem;
+}
