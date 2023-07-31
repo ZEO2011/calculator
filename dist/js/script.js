@@ -29,7 +29,7 @@ clear.onclick = function () {
 
 equal.onclick = function () {
 	try {
-		output.innerHTML = `${eval(output.innerHTML).toFixed(5)}`;
+		output.innerHTML = `${eval(output.innerHTML).toFixed(3)}`;
 	} catch {
 		alert("calculation is not valid!");
 	}
